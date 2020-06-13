@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# My Files
+
+phone.txt
+email.txt
+test.txt

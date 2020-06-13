@@ -39,4 +39,4 @@ class Learn(Mode):
 		return self.count
 
 	def output(self, _):
-		print "Processed %s documents of type '%s'" % (self.count, self.doc_type)
+		print("Processed %s documents of type '%s'" % (self.count, self.doc_type))

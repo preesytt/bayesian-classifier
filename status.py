@@ -13,12 +13,12 @@ class Status(Mode):
 
 	def output(self, results):
 		bar = '=' * 40
-		print '%s\nStatus:\n%s\n' % (bar, bar)
+		print('%s\nStatus:\n%s\n' % (bar, bar))
 
 		if results:
 			for doctype, count in results:
-				print '%s: %s' % (doctype, count)
+				print('%s: %s' % (doctype, count))
 		else:
-			print 'No data'
+			print('No data')
 
-		print '\n%s' % bar
+		print('\n%s' % bar)

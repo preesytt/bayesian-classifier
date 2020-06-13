@@ -12,4 +12,4 @@ class Reset(Mode):
 		Status().execute()
 
 	def output(self, _):
-		print 'Reset Complete'
+		print('Reset Complete')

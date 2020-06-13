@@ -31,4 +31,4 @@ if __name__ == '__main__':
 		mode.output(mode.execute())
 		
 	except Exception as ex:
-		print ex
+		print(ex)

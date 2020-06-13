@@ -39,3 +39,5 @@ nosetests.xml
 phone.txt
 email.txt
 test.txt
+test.py
+spam_keywords.txt

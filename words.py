@@ -24,5 +24,7 @@ def add_list_to_dict(l, d):
 		d[word] += 1
 
 def text_to_list(text):
+	k = cleanUpWord
+	print(k)
 	cleaned_words = map(cleanUpWord, re.split('\W+', text.strip()))
 	return filter(lambda word : word and (len(word) > 0), cleaned_words)

@@ -7,3 +7,5 @@ class Mode:
 
 	def output(self):
 		raise NotImplementedError()
+
+		
